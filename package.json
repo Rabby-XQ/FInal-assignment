@@ -3,7 +3,12 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "test": "playwright test",
+    "posttest": "npx allure generate allure-results --clean -o allure-report || true",
+    "allure:generate": "npx allure generate allure-results --clean -o allure-report",
+    "allure:serve": "npx allure serve allure-results"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
