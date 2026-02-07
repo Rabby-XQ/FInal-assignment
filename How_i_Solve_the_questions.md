@@ -12,4 +12,9 @@ Questions-2
 >for resetting app state i use id: reset_sidebar_link
 >to close the humburger menu i click :react-burger-cross-btn
 >i use for every input- unique page locator and click 
+>declare any variable that need to store element data
 
+Question-3
+------------------------------------------------------------
+>i use page.locator and page.click to find the and press the exact element
+>i need a variable to store the total price and product name elements data , so i declare these variable .
